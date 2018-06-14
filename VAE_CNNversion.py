@@ -97,3 +97,5 @@ for i in range(10):
     a[0][i].imshow(np.reshape(mnist.test.images[i], (28, 28)))
     a[1][i].imshow(np.reshape(pred_p[i], (28, 28)))
 plt.show()
+
+#sess.close()
